@@ -28,7 +28,7 @@
     position: sticky;
     top: 0;
     z-index: 1;
-    background-color: $color-white;
+    background-color: #e5e5e5;
   }
 
   &:target {
@@ -101,7 +101,7 @@
     font-size: $font-size-2xl;
     text-decoration: none;
     cursor: pointer;
-    transition: color 0.3s ease-in-out;
+    transition: color $transition;
   }
   &__CTO {
     text-transform: uppercase;
